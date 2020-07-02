@@ -1,6 +1,8 @@
 # 3D File Exporter
 A 3D File Exporter Powered by Blender.
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/maintainability)](https://codeclimate.com/github/elfrank/3d-file-exporter/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/test_coverage)](https://codeclimate.com/github/elfrank/3d-file-exporter/test_coverage)
+
 ## Setup
 
 ### Pre-requisites
