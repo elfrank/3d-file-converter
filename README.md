@@ -2,22 +2,26 @@
 A 3D File Exporter Powered by Blender.
 
 ## Setup
+
+### Pre-requisites
 1. [Install Docker](https://docs.docker.com/get-docker/).
 2. Clone the repo locally.
 
-## Build the Docker Image
+### Build the Docker Image
 
 ```bash
 scripts/docker-build.sh
 ```
 
-## Start Container
+## Run it locally
+
+### Start Container
 
 ```bash
 scripts/docker-start.sh
 ```
 
-## Run the Pipeline
+### Run the Scripts
 
 ```bash
 # usage
