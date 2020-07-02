@@ -1,0 +1,5 @@
+node_modules/
+coverage/
+Dockerfile
+docker-compose.yml
+yarn-error.log

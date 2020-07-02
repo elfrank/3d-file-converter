@@ -1,0 +1,23 @@
+{
+  "name": "3D File Exporter",
+  "version": "0.0.1",
+  "description": "3D File Exporter powered by Blender",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Avila <elfrank.ab@gmail.com> (http://github.com/elfrank/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.5"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "yargs": "^15.4.0"
+  }
+}

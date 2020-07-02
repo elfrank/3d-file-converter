@@ -1,0 +1,14 @@
+# common hidden files
+.DS_Store
+
+# private environment variables
+.env
+
+# folders with files we don't want to track
+output/**/*
+
+# dependencies
+node_modules/
+
+# do not ignore ".keep" files
+!**/*/.keep
