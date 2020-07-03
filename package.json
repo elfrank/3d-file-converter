@@ -1,9 +1,9 @@
 {
-  "name": "3D File Exporter",
+  "name": "3d-file-exporter",
   "version": "0.0.1",
-  "description": "3D File Exporter powered by Blender",
-  "main": "index.js",
+  "description": "A 3D File Exporter Powered by Blender",
   "scripts": {
+    "lint": "eslint --format codeframe",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Francisco Avila <elfrank.ab@gmail.com> (http://github.com/elfrank/)",
