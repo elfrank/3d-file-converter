@@ -1,4 +1,3 @@
-
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const { argv } = require('./utils/args').yargs;
@@ -15,7 +14,6 @@ const BASE_DIR = '/usr/src/app';
   const scriptPath = `${BASE_DIR}/scripts/node.js/${scriptName} `;
 
   try {
-
     const cmd = [
       'docker exec -i app',
       `node ${scriptPath}`,
@@ -25,7 +23,7 @@ const BASE_DIR = '/usr/src/app';
 
     const {
       stdout,
-      stderr
+      stderr,
     } = await exec(cmd);
 
     if (stdout) {

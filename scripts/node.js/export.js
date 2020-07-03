@@ -1,6 +1,4 @@
-const path = require('path');
 const util = require('util');
-const fs = require('fs');
 
 const exec = util.promisify(require('child_process').exec);
 const { argv } = require('./utils/args').yargs;
@@ -47,7 +45,6 @@ async function runPipeline(pipelineSteps = []) {
 
     const fbxPipeline = [exportToFbxCmd];
     await runPipeline(fbxPipeline);
-
   } catch (err) {
     console.error(err);
   }
