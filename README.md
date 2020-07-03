@@ -4,20 +4,27 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/maintainability)](https://codeclimate.com/github/elfrank/3d-file-exporter/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/test_coverage)](https://codeclimate.com/github/elfrank/3d-file-exporter/test_coverage)
 
-A Javascript 3D File Exporter and Converter powered by Blender.
+A CLI-based 3D File Exporter and Converter powered by Blender.
 
 
 ### Setup
 
-#### Pre-requisites
+```bash
+# install Docker: https://docs.docker.com/get-docker/
+
+# clone Repo
+git clone git@github.com:elfrank/3d-file-exporter.git
+
+# generate .env file
+touch .env && echo "DOCKER_IMAGE_NAME=3d-file-exporter" >> .env
+
+# build the docker image
+scripts/docker-build.sh
+
+```
 1. [Install Docker](https://docs.docker.com/get-docker/).
 2. Clone the repo locally.
 
-#### Build the Docker Image
-
-```bash
-scripts/docker-build.sh
-```
 
 ### Usage
 
