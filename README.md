@@ -20,11 +20,7 @@ touch .env && echo "DOCKER_IMAGE_NAME=3d-file-exporter" >> .env
 
 # build the docker image
 scripts/docker-build.sh
-
 ```
-1. [Install Docker](https://docs.docker.com/get-docker/).
-2. Clone the repo locally.
-
 
 ### Usage
 
