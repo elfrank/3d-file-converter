@@ -12,3 +12,7 @@ node_modules/
 
 # do not ignore ".keep" files
 !**/*/.keep
+
+# do not ignore fixture files
+!data/fixtures/
+!data/fixtures/**/*

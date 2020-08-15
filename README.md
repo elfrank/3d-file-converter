@@ -41,10 +41,10 @@ scripts/docker-start.sh
 node scripts/node.js/run.js -h
 
 # export obj
-node scripts/node.js/run.js -i data/fixtures/teapot.fbx -o data/output/myfile.obj
+node scripts/node.js/run.js -i data/fixtures/teapot/teapot.fbx -o data/output/teapot.obj
 
 # export fbx
-node scripts/node.js/run.js -i data/fixtures/teapot.obj -o data/output/myfile.fbx
+node scripts/node.js/run.js -i data/fixtures/teapot/teapot.obj -o data/output/teapot.fbx
 ```
 
 #### Formats supported
