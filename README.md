@@ -1,8 +1,8 @@
 3d-file-converter
 ========
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/maintainability)](https://codeclimate.com/github/elfrank/3d-file-converter/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/test_coverage)](https://codeclimate.com/github/elfrank/3d-file-converter/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f9b6d6c2e5d74d5a425c/maintainability)](https://codeclimate.com/github/elfrank/3d-file-converter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f9b6d6c2e5d74d5a425c/test_coverage)](https://codeclimate.com/github/elfrank/3d-file-converter/test_coverage)
 
 A CLI-based 3D File Exporter and Converter powered by Blender.
 
