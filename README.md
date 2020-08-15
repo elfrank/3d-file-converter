@@ -51,6 +51,9 @@ node scripts/node.js/run.js -i data/fixtures/teapot.obj -o data/output/myfile.fb
 * Input formats: obj, fbx, gltf
 * Output formats: obj, fbx, gltf, glb, dxf
 
+## Notes
+* It probably makes sense to use a python script as the entrypoint instead of a node.js script (future work?).
+
 ## Resources
 * [Blender - Export Scene Operators](https://docs.blender.org/api/current/bpy.ops.export_scene.html)
 * [Blender - Import and Export Models](https://blender.stackexchange.com/questions/16563/how-can-i-run-blender-from-the-command-line-to-export-and-import-models)
