@@ -3,11 +3,11 @@ const yargs = require('yargs');
 // examples at https://markoskon.com/yargs-examples/
 yargs.usage('Usage: $0 [options]');
 
-yargs.option('f', {
-  alias: 'fileFormat',
-  describe: 'File Format',
+yargs.option('i', {
+  alias: 'inputFile',
+  describe: 'Input file',
   type: 'string',
-  default: 'obj',
+  required: true,
   nargs: 1,
 });
 

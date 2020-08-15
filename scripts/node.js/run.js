@@ -7,8 +7,8 @@ const BASE_DIR = '/usr/src/app';
 (async () => {
   const scriptName = 'export.js';
   const {
-    fileFormat,
     outputFile,
+    inputFile,
   } = argv;
 
   const scriptPath = `${BASE_DIR}/scripts/node.js/${scriptName} `;
@@ -17,7 +17,7 @@ const BASE_DIR = '/usr/src/app';
     const cmd = [
       'docker exec -i app',
       `node ${scriptPath}`,
-      `-f ${fileFormat}`,
+      `-i ${inputFile}`,
       `-o ${outputFile}`,
     ].join(' ');
 

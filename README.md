@@ -18,6 +18,10 @@ git clone git@github.com:elfrank/3d-file-exporter.git
 # generate .env file
 touch .env && echo "DOCKER_IMAGE_NAME=3d-file-exporter" >> .env
 
+# install dependencies
+nvm use
+npm install
+
 # build the docker image
 scripts/docker-build.sh
 ```
@@ -37,19 +41,15 @@ scripts/docker-start.sh
 node scripts/node.js/run.js -h
 
 # export obj
-node scripts/node.js/run.js -o myfile.obj -f obj
+node scripts/node.js/run.js -i data/fixtures/teapot.fbx -o data/output/myfile.obj
 
 # export fbx
-node scripts/node.js/run.js -o myfile.fbx -f fbx
+node scripts/node.js/run.js -i data/fixtures/teapot.obj -o data/output/myfile.fbx
 ```
 
 #### Formats supported
-* OBJ + MTL
-* FBX
-
-#### TODO
-* Load 3D Model from Path
-* Support Conversation from file type A to file type B
+* Input formats: obj, fbx, gltf
+* Output formats: obj, fbx, gltf, glb, dxf
 
 ## Resources
 * [Blender - Export Scene Operators](https://docs.blender.org/api/current/bpy.ops.export_scene.html)
