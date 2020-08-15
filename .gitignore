@@ -1,6 +1,3 @@
-# common hidden files
-.DS_Store
-
 # private environment variables
 .env
 
@@ -16,3 +13,6 @@ node_modules/
 # do not ignore fixture files
 !data/fixtures/
 !data/fixtures/**/*
+
+# common hidden files
+.DS_Store
