@@ -1,5 +1,5 @@
 {
-  "name": "3d-file-exporter",
+  "name": "3d-file-converter",
   "version": "0.0.2",
   "description": "A 3D File Exporter Powered by Blender",
   "scripts": {

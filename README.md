@@ -1,8 +1,8 @@
-3d-file-exporter
+3d-file-converter
 ========
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/maintainability)](https://codeclimate.com/github/elfrank/3d-file-exporter/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/test_coverage)](https://codeclimate.com/github/elfrank/3d-file-exporter/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/maintainability)](https://codeclimate.com/github/elfrank/3d-file-converter/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/91756ad255e7c1b0ce62/test_coverage)](https://codeclimate.com/github/elfrank/3d-file-converter/test_coverage)
 
 A CLI-based 3D File Exporter and Converter powered by Blender.
 
@@ -13,10 +13,10 @@ A CLI-based 3D File Exporter and Converter powered by Blender.
 # install Docker: https://docs.docker.com/get-docker/
 
 # clone Repo
-git clone git@github.com:elfrank/3d-file-exporter.git
+git clone git@github.com:elfrank/3d-file-converter.git
 
 # generate .env file
-touch .env && echo "DOCKER_IMAGE_NAME=3d-file-exporter" >> .env
+touch .env && echo "DOCKER_IMAGE_NAME=3d-file-converter" >> .env
 
 # install dependencies
 nvm use
@@ -40,11 +40,11 @@ scripts/docker-start.sh
 # usage
 node scripts/node.js/run.js -h
 
-# export obj
-node scripts/node.js/run.js -i data/fixtures/teapot/teapot.fbx -o data/output/teapot.obj
-
-# export fbx
+# convert from obj to fbx
 node scripts/node.js/run.js -i data/fixtures/teapot/teapot.obj -o data/output/teapot.fbx
+
+# convert from fbx to obj
+node scripts/node.js/run.js -i data/fixtures/teapot/teapot.fbx -o data/output/teapot.obj
 ```
 
 #### Formats supported

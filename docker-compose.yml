@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: app
-    image: 3d-file-exporter
+    image: 3d-file-converter
     command: tail -f /dev/null
     ports:
     - "8000:8000"
