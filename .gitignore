@@ -11,6 +11,8 @@ node_modules/
 !**/*/.keep
 
 # do not ignore fixture files
+!data/input/
+!data/output/
 !data/fixtures/
 !data/fixtures/**/*
 
