@@ -1,6 +1,6 @@
 {
   "name": "3d-file-converter",
-  "version": "0.0.2",
+  "version": "0.3.0",
   "description": "A 3D File Exporter Powered by Blender",
   "scripts": {
     "lint": "eslint --format codeframe",
