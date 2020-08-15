@@ -5,7 +5,7 @@
 .env
 
 # folders with files we don't want to track
-output/**/*
+data/**/*
 
 # dependencies
 node_modules/
