@@ -19,12 +19,12 @@ RUN echo "NPM Version Installed:" && npm --version
 #
 # ---- Custom Logic
 
-# Install app dependencies
-COPY package.json package-lock.json ./
-RUN npm install
-
 # Prepare directory structure
 WORKDIR /usr/src/app
 RUN echo "/usr/src/app" && ls /usr/src/app
+
+# Install app dependencies
+COPY package.json package-lock.json ./
+RUN npm i --production
 
 # ENTRYPOINT ["/bin/bash"]
